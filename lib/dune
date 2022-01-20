@@ -1,0 +1,15 @@
+(library
+  (name parser_test)
+  (public_name parser_test)
+)
+
+; (rule
+;  (deps parser.mly)
+;  (targets parser.ml parser.mli)
+;  (action (run menhir parser.mly))
+; )
+
+(menhir
+  (modules parser)
+)
+(ocamllex lexer)

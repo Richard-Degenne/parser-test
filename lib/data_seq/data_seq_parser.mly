@@ -27,6 +27,7 @@ values:
   | (* empty *) { [] }
   | h = value { [h] }
   | t = values ; NEWLINE ; h = value { h :: t }
+  | t = values ; NEWLINE { t }
   ;
 
 value:

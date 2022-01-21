@@ -16,6 +16,12 @@ parser_test -p data file.txt
 
 Parses a file containing a colon-separated triple (integer, string, string)
 
+```
+parser_test -p data_seq file.txt
+```
+
+Parses a file containing a list of colon-separated triples (integer, string, string) one per line.
+
 ### Examples
 
 Example data can be found in [`test/data`](test/data).

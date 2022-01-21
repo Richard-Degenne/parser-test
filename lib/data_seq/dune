@@ -1,0 +1,4 @@
+(menhir
+  (modules data_seq_parser)
+)
+(ocamllex data_seq_lexer)

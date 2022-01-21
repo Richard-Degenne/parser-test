@@ -1,5 +1,5 @@
 {
-  open Parser
+  open Int_parser
 
   exception SyntaxError of string
 }
